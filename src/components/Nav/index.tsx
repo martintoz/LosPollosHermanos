@@ -3,9 +3,16 @@ import { StyledNav } from "./StyledNav";
 
 function Nav() {
   return (
-     <StyledNav> 
-       Los Pollos Hermanos
-     </StyledNav>
+    <StyledNav>
+      <nav>
+          Los Pollos Hermanos
+          <ul>
+            <li>News</li>
+            <li>Promos</li>
+            <li>Subscribe</li>
+          </ul>
+      </nav>
+    </StyledNav>
   );
 }
 
