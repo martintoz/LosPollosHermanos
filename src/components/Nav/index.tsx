@@ -10,6 +10,7 @@ function Nav() {
             <li>News</li>
             <li>Promos</li>
             <li>Subscribe</li>
+            <li>About us</li>
           </ul>
       </nav>
     </StyledNav>

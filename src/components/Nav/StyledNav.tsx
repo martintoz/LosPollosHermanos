@@ -6,6 +6,9 @@ export const StyledNav = styled.div`
   width: 100vw;
   min-height: ${navHeight}vh;
   border-bottom: 4px solid ${mainRed};
+  position:fixed;
+
+  z-index:99;
   nav {
     display: flex;
       ul{
