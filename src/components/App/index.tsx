@@ -5,6 +5,7 @@ import Header from "../Header";
 import Nav from "../Nav";
 import NewLocation from "../NewLocation";
 import Promo from "../Promo";
+import Subscribe from "../Subscribe";
 import { GlobalStyle } from "./GlobalStyle";
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
       <Nav />
       <Header />
       <FeverBanner />
-      <NewLocation />
+       <NewLocation /> 
       <Promo />
       <AboutUs />
+      <Subscribe />
     </div>
   );
 }

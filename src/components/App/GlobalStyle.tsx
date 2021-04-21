@@ -7,18 +7,35 @@ export const mainYellow = "#fddb00"
 export const lightYellow = "#ffff53"
 export const darkYellow = "#c5aa00"
 export const mainRed = "#d2102a"
+export const darkRed = "#980001"
 export const lightBlue = "#6aace6"
 export const mainBlue = "#27437c"
+export const white = "#fafafa"
 
 export const GlobalStyle = createGlobalStyle`
 *{
   margin: 0;
-  overflow-x: hidden
 }
 body{
+  /* overflow-x: hidden */
   background-color:${lightYellow};
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing:3px;
+  padding:5px 0;
+  color: ${darkRed};
+}
+h2{
+  font-size: 3em;
+}
+a{
+  text-decoration:none;
 }
 ul{
     list-style: none;
+
+    padding-inline-start:0;
 }
 `;
