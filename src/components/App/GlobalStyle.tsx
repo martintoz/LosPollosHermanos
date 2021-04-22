@@ -16,9 +16,10 @@ export const black = "#151515";
 export const GlobalStyle = createGlobalStyle`
 *{
   margin: 0;
+  
 }
 body{
-  /* overflow-x: hidden */
+  overflow-x: hidden;
   background-color:${lightYellow};
   font-family: 'Open Sans', sans-serif;
 }
