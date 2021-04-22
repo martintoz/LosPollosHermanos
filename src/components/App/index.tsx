@@ -15,10 +15,10 @@ function App() {
       <Nav />
       <Header />
       <FeverBanner />
-       <NewLocation /> 
+      <NewLocation /> 
+      <Subscribe />
       <Promo />
       <AboutUs />
-      <Subscribe />
     </div>
   );
 }
