@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { white, black } from "../App/GlobalStyle";
+import { white, black, mainYellow } from "../App/GlobalStyle";
 
 export const StyledNewLocation = styled.div`
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 35%, black 95%),
@@ -18,6 +18,11 @@ export const StyledNewLocation = styled.div`
   }
   .fas {
     font-size: 5rem;
+  }
+  h2{
+    span{
+      color:${mainYellow}
+    }
   }
   @media screen and (max-width: 750px) {
     background: linear-gradient(to top, rgba(255, 255, 255, 0) 35%, black 95%),

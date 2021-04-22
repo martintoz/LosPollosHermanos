@@ -5,7 +5,7 @@ function NewLocation() {
   return (
     <StyledNewLocation id="news">
       <div>
-        <h2>We are landing in Spain!</h2>
+        <h2>We are <span>landing</span> in Spain!</h2>
         <p>
           A new Los Pollos Hermanos restaurant is opening soon at Puerta de
           Alcalá, Madrid.
