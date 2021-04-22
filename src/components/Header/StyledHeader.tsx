@@ -1,13 +1,8 @@
 import styled from "styled-components";
 import {
-  darkRed,
   headerHeight,
-  lightBlue,
   lightYellow,
-  mainBlue,
-  mainYellow,
   navHeight,
-  white,
 } from "../App/GlobalStyle";
 
 export const StyledHeader = styled.div`
@@ -40,42 +35,6 @@ export const StyledHeader = styled.div`
       height: 20vw;
       grid-area: logo;
       place-self: center end;
-    }
-    .quote {
-      overflow-x: visible;
-      position: relative;
-      border: 5px solid ${mainBlue};
-      background-color: ${lightBlue};
-      color: ${white};
-      padding: 2vw;
-      margin:2vw;
-      grid-area: quote;
-      place-self: center center;
-      font-family: "Playfair Display", serif;
-      font-style: italic;
-      font-size: 1.5rem;
-      span {
-        font-style: normal;
-        color: ${mainYellow};
-      }
-      .openQuote,
-      .closeQuote {
-        color: ${darkRed};
-        font-size: 10rem;
-        font-weight: bold;
-        position: absolute;
-        line-height:0.1;
-        margin:0;
-        padding:0;
-      }
-      .openQuote {
-        top: 15px;
-        left:-50px;
-      }
-      .closeQuote{
-        bottom:-35px;
-        right:-15px;
-      }
     }
   }
   @media screen and (max-width: 1150px) {

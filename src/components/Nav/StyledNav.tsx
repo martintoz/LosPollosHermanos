@@ -19,6 +19,13 @@ export const StyledNav = styled.div`
       margin-right:5vw;
       gap:2vw;
       display: flex;
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    .banner{
+      padding-left:2vw;
+      width:70%;
     }
   }
 `;

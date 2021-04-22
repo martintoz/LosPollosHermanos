@@ -22,19 +22,24 @@ function Countdown({ date }: dateCountdown) {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo")!.innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById(
+      "countdown"
+    )!.innerHTML = `<div className="days">${days}<p>days</p></div> 
+    <div className="hours">${hours}<p>hours</p></div> 
+    <div className="minutes">${minutes}<p>minutes</p></div> 
+    <div className="seconds">${seconds}<p>seconds</p></div>`;
 
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("demo")!.innerHTML = "EXPIRED";
+      document.getElementById("countdown")!.innerHTML = "EXPIRED";
     }
   }, 1000);
 
   return (
     <StyledCountdown>
-      <p id="demo"></p>
+      <p>Time left</p>
+      <div id="countdown"></div>
     </StyledCountdown>
   );
 }

@@ -10,7 +10,8 @@ export const mainRed = "#d2102a"
 export const darkRed = "#980001"
 export const lightBlue = "#6aace6"
 export const mainBlue = "#27437c"
-export const white = "#fafafa"
+export const white = "#F0F0F0"
+export const black = "#151515"
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -25,13 +26,18 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Luckiest Guy', cursive;
   letter-spacing:3px;
   padding:5px 0;
-  color: ${darkRed};
+  color: ${mainRed};
 }
 h2{
   font-size: 3em;
 }
 a{
   text-decoration:none;
+  color:${mainRed};
+  &:hover{
+    color:${darkRed};
+    transition: all 300ms ease;
+  }
 }
 ul{
     list-style: none;
