@@ -1,6 +1,7 @@
 import React from "react";
 import AboutUs from "../AboutUs";
 import FeverBanner from "../FeverBanner";
+import Footer from "../Footer";
 import Header from "../Header";
 import Nav from "../Nav";
 import NewLocation from "../NewLocation";
@@ -19,6 +20,7 @@ function App() {
       <Subscribe />
       <Promo />
       <AboutUs />
+      <Footer />
     </div>
   );
 }
