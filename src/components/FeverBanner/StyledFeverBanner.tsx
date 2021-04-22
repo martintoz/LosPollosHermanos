@@ -7,6 +7,7 @@ export const StyledFeverBanner = styled.div`
   display:flex;
   justify-content:center;
   img {
-      width:20vw;
+      width:20%;
+      min-width:15rem;
   }
 `;

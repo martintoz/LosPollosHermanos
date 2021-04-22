@@ -41,6 +41,9 @@ function Subscribe() {
   return (
     <StyledSubscribe id="subscribe">
       <h2>Subscribe to our newsletter</h2>
+      <p>
+          Receive our latest promos, news, discounts, and more!
+        </p>
       <form onSubmit={handleSubmit}>
         <input
           type="email"

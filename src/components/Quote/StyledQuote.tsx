@@ -36,6 +36,16 @@ export const StyledQuote = styled.div`
       .closeQuote{
         bottom:-35px;
         right:-15px;
+        .openQuote,
+      .closeQuote{
+        font-size:6rem;
+      }
       }
     }
+    @media screen and (max-width: 750px) {
+      .quote{
+
+      font-size: 1.2rem;
+      }
+  }
 `;

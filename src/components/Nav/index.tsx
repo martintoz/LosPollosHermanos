@@ -26,13 +26,13 @@ function Nav() {
             </HashLink>
           </li>
           <li>
-            <HashLink to="/#promo" scroll={(el) => scrollWithOffset(el)}>
-              Promos
+            <HashLink to="/#subscribe" scroll={(el) => scrollWithOffset(el)}>
+              Subscribe
             </HashLink>
           </li>
           <li>
-            <HashLink to="/#subscribe" scroll={(el) => scrollWithOffset(el)}>
-              Subscribe
+            <HashLink to="/#promo" scroll={(el) => scrollWithOffset(el)}>
+              Promos
             </HashLink>
           </li>
           <li>

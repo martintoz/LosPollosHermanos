@@ -38,7 +38,7 @@ function Countdown({ date }: dateCountdown) {
 
   return (
     <StyledCountdown>
-      <p>Time left</p>
+      <p>Promo available for:</p>
       <div id="countdown"></div>
     </StyledCountdown>
   );

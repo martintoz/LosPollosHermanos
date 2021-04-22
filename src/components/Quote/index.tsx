@@ -2,8 +2,8 @@ import React from "react";
 import { StyledQuote } from "./StyledQuote";
 
 export interface quote {
-  quotationMarks?: boolean;
   text: string;
+  quotationMarks?: boolean;
   author?: string;
 }
 
