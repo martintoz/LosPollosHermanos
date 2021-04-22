@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, ChangeEvent, FormEvent } from "react";
 import { StyledSubscribe } from "./StyledSubscribe";
 import Swal from "sweetalert2";
 
 function Subscribe() {
-  const handleSubmit = () => {
+  const handleSubmit = (e:FormEvent) => {
+    e.preventDefault();
     Swal.fire({
       icon: "success",
       title: "Your email address was registered.",
@@ -22,7 +23,7 @@ function Subscribe() {
     return re.test(String(email).toLowerCase());
   }
 
-  const handleChange = (e: any) => {
+  const handleChange = (e:ChangeEvent<HTMLInputElement>) => {
     const target = e.target;
     const name = target.name;
     const value = target.value;
