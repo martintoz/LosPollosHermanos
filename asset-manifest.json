@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/LosPollosHermanos/static/js/main.c5d96fe4.chunk.js",
+    "main.js.map": "/LosPollosHermanos/static/js/main.c5d96fe4.chunk.js.map",
+    "runtime-main.js": "/LosPollosHermanos/static/js/runtime-main.56c1492f.js",
+    "runtime-main.js.map": "/LosPollosHermanos/static/js/runtime-main.56c1492f.js.map",
+    "static/js/2.19455152.chunk.js": "/LosPollosHermanos/static/js/2.19455152.chunk.js",
+    "static/js/2.19455152.chunk.js.map": "/LosPollosHermanos/static/js/2.19455152.chunk.js.map",
+    "index.html": "/LosPollosHermanos/index.html",
+    "static/js/2.19455152.chunk.js.LICENSE.txt": "/LosPollosHermanos/static/js/2.19455152.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56c1492f.js",
+    "static/js/2.19455152.chunk.js",
+    "static/js/main.c5d96fe4.chunk.js"
+  ]
+}
