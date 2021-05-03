@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { bannerHeight, mainYellow, mainRed } from "../App/GlobalStyle";
+import { mainYellow, mainRed } from "../App/GlobalStyle";
 
 export const StyledFooter = styled.div`
   background-color: ${mainYellow};
   border-top: 4px solid ${mainRed};
-  min-height: ${bannerHeight}vh;
+  min-height: 5vh;
   display:flex;
   flex-direction:column;
   align-items:center;

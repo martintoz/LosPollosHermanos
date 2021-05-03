@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const navHeight = 10;
 export const bannerHeight = 15;
-export const headerHeight = 100 - navHeight - bannerHeight;
+export const headerHeight = 100 - navHeight;
 export const mainYellow = "#fddb00";
 export const lightYellow = "#ffff53";
 export const darkYellow = "#c5aa00";

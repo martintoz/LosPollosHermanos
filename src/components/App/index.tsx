@@ -1,6 +1,5 @@
 import React from "react";
 import AboutUs from "../AboutUs";
-import FeverBanner from "../FeverBanner";
 import Footer from "../Footer";
 import Header from "../Header";
 import Nav from "../Nav";
@@ -15,7 +14,6 @@ function App() {
       <GlobalStyle />
       <Nav />
       <Header />
-      <FeverBanner />
       <NewLocation /> 
       <Subscribe />
       <Promo />
