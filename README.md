@@ -1,5 +1,5 @@
-# Fever web designer exercise
+# Landing page
 
-This project was created by Martin Tozer for Fever.
+This project was created by Martin Tozer.
 
 📧 [martintoz@gmail.com](mailto:martintoz@gmail.com) 
